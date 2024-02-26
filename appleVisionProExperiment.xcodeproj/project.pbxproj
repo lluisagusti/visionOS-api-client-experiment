@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F19340A2B8CB88A00BFA335 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 1F1934092B8CB88A00BFA335 /* RealityKitContent */; };
+		1F19340C2B8CB88A00BFA335 /* appleVisionProExperimentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F19340B2B8CB88A00BFA335 /* appleVisionProExperimentApp.swift */; };
+		1F19340E2B8CB88A00BFA335 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F19340D2B8CB88A00BFA335 /* ContentView.swift */; };
+		1F1934102B8CB88A00BFA335 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F19340F2B8CB88A00BFA335 /* ImmersiveView.swift */; };
+		1F1934122B8CB88B00BFA335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F1934112B8CB88B00BFA335 /* Assets.xcassets */; };
+		1F1934152B8CB88B00BFA335 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F1934142B8CB88B00BFA335 /* Preview Assets.xcassets */; };
+		1F1934202B8CB88B00BFA335 /* appleVisionProExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F19341F2B8CB88B00BFA335 /* appleVisionProExperimentTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F19341C2B8CB88B00BFA335 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F1933FC2B8CB88A00BFA335 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F1934032B8CB88A00BFA335;
+			remoteInfo = appleVisionProExperiment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F1934042B8CB88A00BFA335 /* appleVisionProExperiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appleVisionProExperiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1934082B8CB88A00BFA335 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		1F19340B2B8CB88A00BFA335 /* appleVisionProExperimentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appleVisionProExperimentApp.swift; sourceTree = "<group>"; };
+		1F19340D2B8CB88A00BFA335 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1F19340F2B8CB88A00BFA335 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		1F1934112B8CB88B00BFA335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F1934142B8CB88B00BFA335 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F1934162B8CB88B00BFA335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F19341B2B8CB88B00BFA335 /* appleVisionProExperimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appleVisionProExperimentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F19341F2B8CB88B00BFA335 /* appleVisionProExperimentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appleVisionProExperimentTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F1934012B8CB88A00BFA335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F19340A2B8CB88A00BFA335 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1934182B8CB88B00BFA335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F1933FB2B8CB88A00BFA335 = {
+			isa = PBXGroup;
+			children = (
+				1F1934062B8CB88A00BFA335 /* appleVisionProExperiment */,
+				1F1934072B8CB88A00BFA335 /* Packages */,
+				1F19341E2B8CB88B00BFA335 /* appleVisionProExperimentTests */,
+				1F1934052B8CB88A00BFA335 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F1934052B8CB88A00BFA335 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F1934042B8CB88A00BFA335 /* appleVisionProExperiment.app */,
+				1F19341B2B8CB88B00BFA335 /* appleVisionProExperimentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F1934062B8CB88A00BFA335 /* appleVisionProExperiment */ = {
+			isa = PBXGroup;
+			children = (
+				1F19340B2B8CB88A00BFA335 /* appleVisionProExperimentApp.swift */,
+				1F19340D2B8CB88A00BFA335 /* ContentView.swift */,
+				1F19340F2B8CB88A00BFA335 /* ImmersiveView.swift */,
+				1F1934112B8CB88B00BFA335 /* Assets.xcassets */,
+				1F1934162B8CB88B00BFA335 /* Info.plist */,
+				1F1934132B8CB88B00BFA335 /* Preview Content */,
+			);
+			path = appleVisionProExperiment;
+			sourceTree = "<group>";
+		};
+		1F1934072B8CB88A00BFA335 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				1F1934082B8CB88A00BFA335 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		1F1934132B8CB88B00BFA335 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1F1934142B8CB88B00BFA335 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1F19341E2B8CB88B00BFA335 /* appleVisionProExperimentTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F19341F2B8CB88B00BFA335 /* appleVisionProExperimentTests.swift */,
+			);
+			path = appleVisionProExperimentTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F1934032B8CB88A00BFA335 /* appleVisionProExperiment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F1934232B8CB88B00BFA335 /* Build configuration list for PBXNativeTarget "appleVisionProExperiment" */;
+			buildPhases = (
+				1F1934002B8CB88A00BFA335 /* Sources */,
+				1F1934012B8CB88A00BFA335 /* Frameworks */,
+				1F1934022B8CB88A00BFA335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = appleVisionProExperiment;
+			packageProductDependencies = (
+				1F1934092B8CB88A00BFA335 /* RealityKitContent */,
+			);
+			productName = appleVisionProExperiment;
+			productReference = 1F1934042B8CB88A00BFA335 /* appleVisionProExperiment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F19341A2B8CB88B00BFA335 /* appleVisionProExperimentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F1934262B8CB88B00BFA335 /* Build configuration list for PBXNativeTarget "appleVisionProExperimentTests" */;
+			buildPhases = (
+				1F1934172B8CB88B00BFA335 /* Sources */,
+				1F1934182B8CB88B00BFA335 /* Frameworks */,
+				1F1934192B8CB88B00BFA335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F19341D2B8CB88B00BFA335 /* PBXTargetDependency */,
+			);
+			name = appleVisionProExperimentTests;
+			productName = appleVisionProExperimentTests;
+			productReference = 1F19341B2B8CB88B00BFA335 /* appleVisionProExperimentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F1933FC2B8CB88A00BFA335 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					1F1934032B8CB88A00BFA335 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					1F19341A2B8CB88B00BFA335 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1F1934032B8CB88A00BFA335;
+					};
+				};
+			};
+			buildConfigurationList = 1F1933FF2B8CB88A00BFA335 /* Build configuration list for PBXProject "appleVisionProExperiment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F1933FB2B8CB88A00BFA335;
+			productRefGroup = 1F1934052B8CB88A00BFA335 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F1934032B8CB88A00BFA335 /* appleVisionProExperiment */,
+				1F19341A2B8CB88B00BFA335 /* appleVisionProExperimentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F1934022B8CB88A00BFA335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1934152B8CB88B00BFA335 /* Preview Assets.xcassets in Resources */,
+				1F1934122B8CB88B00BFA335 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1934192B8CB88B00BFA335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F1934002B8CB88A00BFA335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F19340E2B8CB88A00BFA335 /* ContentView.swift in Sources */,
+				1F19340C2B8CB88A00BFA335 /* appleVisionProExperimentApp.swift in Sources */,
+				1F1934102B8CB88A00BFA335 /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1934172B8CB88B00BFA335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1934202B8CB88B00BFA335 /* appleVisionProExperimentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F19341D2B8CB88B00BFA335 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F1934032B8CB88A00BFA335 /* appleVisionProExperiment */;
+			targetProxy = 1F19341C2B8CB88B00BFA335 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F1934212B8CB88B00BFA335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		1F1934222B8CB88B00BFA335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		1F1934242B8CB88B00BFA335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"appleVisionProExperiment/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lluisagusti.appleVisionProExperiment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		1F1934252B8CB88B00BFA335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"appleVisionProExperiment/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lluisagusti.appleVisionProExperiment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		1F1934272B8CB88B00BFA335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lluisagusti.appleVisionProExperimentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appleVisionProExperiment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/appleVisionProExperiment";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		1F1934282B8CB88B00BFA335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lluisagusti.appleVisionProExperimentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appleVisionProExperiment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/appleVisionProExperiment";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F1933FF2B8CB88A00BFA335 /* Build configuration list for PBXProject "appleVisionProExperiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1934212B8CB88B00BFA335 /* Debug */,
+				1F1934222B8CB88B00BFA335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F1934232B8CB88B00BFA335 /* Build configuration list for PBXNativeTarget "appleVisionProExperiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1934242B8CB88B00BFA335 /* Debug */,
+				1F1934252B8CB88B00BFA335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F1934262B8CB88B00BFA335 /* Build configuration list for PBXNativeTarget "appleVisionProExperimentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1934272B8CB88B00BFA335 /* Debug */,
+				1F1934282B8CB88B00BFA335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1F1934092B8CB88A00BFA335 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1F1933FC2B8CB88A00BFA335 /* Project object */;
+}
